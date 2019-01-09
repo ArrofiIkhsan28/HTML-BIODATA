@@ -1,0 +1,66 @@
+table ,th,td{
+    border:1px solid gray;
+    font-size: 40px;
+    
+
+}
+
+.yoink{
+    background-color:transparent;
+    overflow: hidden; 
+    padding-bottom: #313131;
+    transition: 0,75 all;
+    display: block;
+    position: relative;
+    display: inline block;
+}
+.yoink a{
+    float: left;
+    color: aquamarine;
+    text-align: center;
+    padding: 20px 78px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+body{
+   background-image:url(vaporwave.jpg);
+   background-size: cover;
+
+}
+div{
+    font-size: 40px;
+}
+.yoink a:hover{
+  background-color: violet;
+    
+}
+input{
+    background-color: transparent;
+    border-color: blueviolet;
+    margin: 5px 0 22px 0;
+    width: 100%;
+    padding:10px;
+}
+.Register{
+    width: 100%;
+    padding: 5px ;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    opacity: 0,9;
+    color: whitesmoke;
+    margin: 8px 0;
+    font-size: 20px;
+    
+}
+.Register:hover{
+    opacity: 1;
+    color: #000;
+}
+div{
+    font-size: 50x;
+}
+input::placeholder{
+    font-size: 20px;
+}
